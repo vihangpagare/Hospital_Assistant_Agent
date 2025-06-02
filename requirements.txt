@@ -1,0 +1,32 @@
+# Load environment variables
+python-dotenv>=1.0.0
+
+# Streamlit UI framework
+streamlit>=1.25.0
+
+# Pandas (used by ui.py for data display)
+pandas>=2.0.0
+
+# PDF reading
+PyPDF2>=3.0.0
+
+# LangChain core (messages, runnables, vectorstores)
+langchain-core>=0.2.0
+
+# Anthropic integration for LangChain (ChatAnthropic)
+langchain-anthropic>=0.1.0
+
+# Together embeddings (for hospital manual embedding)
+langchain-together>=0.1.0
+
+# Exa (if you keep any web-research nodes; otherwise safe to omit)
+exa-py>=1.0.0
+
+# Pydantic (data validation in agent_nodes.py)
+pydantic>=1.10.0
+
+# LangGraph (state-graph framework)
+langgraph>=0.1.0
+
+# Typing extensions (Annotated, Literal, etc.)
+typing-extensions>=4.0.0
